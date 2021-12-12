@@ -3,7 +3,7 @@ from django.db import models
 
 class Candidate(models.Model):
     name = models.CharField(max_length=255)
-    total_experience = models.SmallIntegerField(null=False, blank=False)
+    total_experience = models.SmallIntegerField(null=True, blank=True)
 
 
 class WorkExperience(models.Model):
