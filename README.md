@@ -3,8 +3,7 @@
 # Setup
 
 ## Mandatory steps
-1. Install Python3.9+
-2. Install Pipenv
+Install Python3.9+
 
 ## Setup project
 Install environment
